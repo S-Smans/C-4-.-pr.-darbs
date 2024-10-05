@@ -1,42 +1,42 @@
 ﻿//// 1. 1. Uzdevums
 
-//Console.WriteLine("Ievadiet skaitli");
-//int num = Convert.ToInt32(Console.ReadLine());
-//int result = 1;
+Console.WriteLine("Ievadiet skaitli");
+int num = Convert.ToInt32(Console.ReadLine());
+int result = 1;
 
-//for (int i = 1; i <= num; i++)
-//{
-//    Console.WriteLine($"{result} * {i} = {result * i}");
-//    result *= i;
-//}
+for (int i = 1; i <= num; i++)
+{
+    Console.WriteLine($"{result} * {i} = {result * i}");
+    result *= i;
+}
 
-//// 1. 2. Uzdevums
+// 1. 2. Uzdevums
 
-//Console.Write("Ievadiet noguldījuma summu: ");
-//double deposit = Convert.ToDouble(Console.ReadLine());
+Console.Write("Ievadiet noguldījuma summu: ");
+double deposit = Convert.ToDouble(Console.ReadLine());
 
-//Console.Write("Ievadiet noguldījuma ilgumu (gadu skaitu): ");
-//int time = Convert.ToInt32(Console.ReadLine());
+Console.Write("Ievadiet noguldījuma ilgumu (gadu skaitu): ");
+int time = Convert.ToInt32(Console.ReadLine());
 
-//Console.Write("Ievadiet gada % likmi: ");
-//double percentage = Convert.ToDouble(Console.ReadLine());
+Console.Write("Ievadiet gada % likmi: ");
+double percentage = Convert.ToDouble(Console.ReadLine());
 
-//for (int i = 1;i <= time; i++)
-//{
-//    double earned = deposit * percentage + deposit;
-//    Console.WriteLine($"Summa pēc {i} gada ir {earned:0.00}");
-//    deposit = earned;
-//}
+for (int i = 1; i <= time; i++)
+{
+    double earned = deposit * percentage + deposit;
+    Console.WriteLine($"Summa pēc {i} gada ir {earned:0.00}");
+    deposit = earned;
+}
 
-//// 1. 3. Uzdevums
+// 1. 3. Uzdevums
 
-//Console.WriteLine("y/x |\t1\t2\t3\t4\t5\t6\t7\t8\t9");
-//Console.WriteLine("----------------------------------------------------------------------------");
+Console.WriteLine("y/x |\t1\t2\t3\t4\t5\t6\t7\t8\t9");
+Console.WriteLine("----------------------------------------------------------------------------");
 
-//for (int i = 1; i < 10; i++)
-//{
-//    Console.WriteLine($"{i}   |\t{1*i}\t{2 * i}\t{3 * i}\t{4 * i}\t{5 * i}\t{6 * i}\t{7 * i}\t{8 * i}\t{9 * i}");
-//}
+for (int i = 1; i < 10; i++)
+{
+    Console.WriteLine($"{i}   |\t{1 * i}\t{2 * i}\t{3 * i}\t{4 * i}\t{5 * i}\t{6 * i}\t{7 * i}\t{8 * i}\t{9 * i}");
+}
 
 
 
